@@ -1,0 +1,149 @@
+{
+  "id": "649a86f7-4440-4b20-a43e-eb180d32a206",
+  "version": "2.0",
+  "name": "selenium-example",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "418c6dbb-3b76-456f-a03e-1c394d20bebf",
+    "name": "Test works with one word",
+    "commands": [{
+      "id": "e2f727be-fa2c-4ca9-9965-e89354cc68b2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4476507-21ae-4466-9694-aa0217d49342",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df41f647-8e9b-4dbe-bcba-5d57c4f8f47d",
+      "comment": "",
+      "command": "click",
+      "target": "id=string",
+      "targets": [
+        ["id=string", "id"],
+        ["name=string", "name"],
+        ["css=#string", "css:finder"],
+        ["xpath=//input[@id='string']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e8548bb-fa6a-4c8e-9e47-67f4562e9d13",
+      "comment": "",
+      "command": "type",
+      "target": "id=string",
+      "targets": [
+        ["id=string", "id"],
+        ["name=string", "name"],
+        ["css=#string", "css:finder"],
+        ["xpath=//input[@id='string']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "12"
+    }, {
+      "id": "e6fb04af-324e-448e-88fe-374e7424c342",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93c19aac-988d-4255-bf65-43f3b046624a",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [],
+      "value": "12"
+    }]
+  }, {
+    "id": "53687c3e-3f52-4072-87f2-296c9a66350b",
+    "name": "Test works with sentence",
+    "commands": [{
+      "id": "b1fca072-4754-445e-b3c1-53c97f65f682",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dacd3d20-8cdc-48ab-9302-9186f7f78401",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ee35335a-c4e7-4a94-8b88-06358479ab0c",
+      "comment": "",
+      "command": "click",
+      "target": "id=string",
+      "targets": [
+        ["id=string", "id"],
+        ["name=string", "name"],
+        ["css=#string", "css:finder"],
+        ["xpath=//input[@id='string']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bacb3519-2604-4ff5-85ba-607d73c5704b",
+      "comment": "",
+      "command": "type",
+      "target": "id=string",
+      "targets": [
+        ["id=string", "id"],
+        ["name=string", "name"],
+        ["css=#string", "css:finder"],
+        ["xpath=//input[@id='string']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/form/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "шла саша по шоссе и сосала сушку"
+    }, {
+      "id": "089516cf-13de-4240-9ae7-9104423237b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=commit",
+      "targets": [
+        ["name=commit", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='commit']", "xpath:attributes"],
+        ["xpath=//div[@id='form']/form/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72349611-cfa3-48fb-93bb-890208edcb3c",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=result",
+      "targets": [],
+      "value": "сосала сушку шоссе саша шла по и"
+    }]
+  }],
+  "suites": [{
+    "id": "82f07738-3111-49f0-a8a6-4f939dfeb878",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["418c6dbb-3b76-456f-a03e-1c394d20bebf"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
