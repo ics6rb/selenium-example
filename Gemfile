@@ -15,7 +15,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'byebug', platforms: %w[mri mingw x64_mingw]
+  gem 'faker'
+  gem 'rails-controller-testing'
   gem 'reek'
+  gem 'rspec-html-matchers'
   gem 'rspec-rails'
   gem 'rubocop'
   gem 'rubocop-rails'
