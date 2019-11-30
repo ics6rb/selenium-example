@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -13,6 +15,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   gem 'byebug', platforms: %w[mri mingw x64_mingw]
+  gem 'reek'
+  gem 'rubocop'
+  gem 'rubocop-rails'
 end
 
 group :development do
